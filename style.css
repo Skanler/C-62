@@ -1,0 +1,40 @@
+.line{
+    height : 6px;
+    background-color :cadetblue;
+    width : 70px;
+    margin : 40px auto;
+}
+body{
+    text-align: center;
+}
+#app{
+    background-color : beige;
+}
+#chatbot{
+    background-color : darkgray;
+}
+#games{
+    background-color : aqua;
+}
+.flappyimage{
+    width : 20%;
+}
+img{
+    transition : transform .2s;
+}
+img:hover{
+    transform : scale(0.8);
+}
+#myCarousel{
+    background-color:yellow;
+}
+#myCarousel img{
+    height : 300px;
+    margin-top : 35px;
+}
+.carousel-inner p{
+    margin-bottom : 15px;
+    margin-top : 15px;
+    color:orange;
+    font-size : 25px;
+}
